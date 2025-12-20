@@ -1,3 +1,13 @@
+:root {
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
 nav {
     height: 64px;
@@ -17,4 +27,14 @@ nav li {
     border-radius: 5px;
     border-color: blueviolet;
     background-color: bisque;
+}
+
+.photo li img{
+    width: 100%;
+}
+
+.photo li{
+    list-style: none;
+    display: inline-block;
+    width: 24%;
 }
