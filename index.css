@@ -1,0 +1,20 @@
+
+nav {
+    height: 64px;
+    width: 100%;
+    background-color: aqua;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    background-color: bisque;
+}
